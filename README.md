@@ -41,10 +41,10 @@ Namespaces chủ yếu giúp cô lập góc nhìn tài nguyên, trong khi cgroup
 
 Kết quả kiểm tra trên môi trường thực hành:
 
-- **Server Version:** [Điền Server Version]
-- **Cgroup Driver:** [Điền Cgroup Driver]
-- **Containers:** [Điền tổng số Containers]
-- **Images:** [Điền tổng số Images]
+- **Server Version:** [29.8.2]
+- **Cgroup Driver:** [cgroupfs]
+- **Containers:** [2]
+- **Images:** [4]
 
 Các thông số trên được lấy từ đầu ra lệnh `docker info`. Lệnh `docker version` được sử dụng để kiểm tra phiên bản Docker Client và Server, đồng thời xác nhận khả năng kết nối với Docker Engine.
 
